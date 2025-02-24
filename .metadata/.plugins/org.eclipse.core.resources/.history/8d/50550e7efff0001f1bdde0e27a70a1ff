@@ -1,0 +1,14 @@
+package app5;
+abstract class C{
+	abstract void  test1();
+	void test2() {
+		System.out.println("C-test2");
+	}
+}
+public class M7 {
+	public static void main(String[] args) {
+		C c1 =new C();
+		c1.test1();
+		c1.test1();
+	}
+}

@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+E:\feb-dev\core-java-advance\.metadata\.plugins\org.eclipse.jdt.core
+2066280728.index
+188876183.index
+3793854626.index
+1865797976.index
+2502332468.index
+2454410285.index
+2084910337.index
+204456334.index

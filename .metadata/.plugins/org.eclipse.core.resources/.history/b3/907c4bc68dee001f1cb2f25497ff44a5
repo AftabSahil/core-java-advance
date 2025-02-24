@@ -1,0 +1,6 @@
+package app2;
+
+public class A {
+	int i = 10;
+	Integer obj = Integer.valueOf(i);   //boxing
+}

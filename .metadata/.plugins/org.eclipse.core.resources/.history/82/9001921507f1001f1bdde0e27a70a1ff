@@ -1,0 +1,15 @@
+package app5;
+interface J{
+	void test(int i);
+}
+public class N13 {
+	public static void main(String[] args) {
+		J j1 = (int i) ->{
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+		};
+		j1.test(10);
+	}
+}

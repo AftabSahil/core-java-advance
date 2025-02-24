@@ -1,0 +1,8 @@
+package app5;
+interface E{
+	void test1();
+	void test2();
+}
+public class M9 {
+
+}

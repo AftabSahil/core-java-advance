@@ -1,0 +1,15 @@
+package app5;
+interface J{
+	void test(int i);
+}
+public class N13 {
+	public static void main(String[] args) {
+		J j1 = (int i) ->{
+			System.out.println("lambda expr1:" +i);
+			System.out.println("lambda expr2:" +i);
+			System.out.println("lambda expr3:" +i);
+			System.out.println("lambda expr4:" +i);
+		};
+		j1.test(10);
+	}
+}
