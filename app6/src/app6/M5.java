@@ -1,5 +1,11 @@
 package app6;
-
+/*
+5 
+4 4 
+3 3 3 
+2 2 2 2
+1 1 1 1 1
+ */
 public class M5 {
 	    public static void main(String[] args) {
 	        int rows = 4; // Change this to generate more rows
