@@ -1,10 +1,10 @@
 package app8;
-class W <E>{
+class W < E >{
 	E f1;
 }
 public class M15 {
 	public static void main(String[] args) {
-		W<?extends R> w1 = null;
+		W<? extends R> w1 = null;
 		w1 = new W<R>();
 		w1 = new W<S>();
 		w1 = new W<T>();
@@ -13,6 +13,7 @@ public class M15 {
 //		w1 = new W<Object>();
 //		w1 = new W<Integer>();
 //		w1 = new W<String>();
-//		W1.f1 = new R();
+//		w1.f1 = new R();
+	
 	}
 }

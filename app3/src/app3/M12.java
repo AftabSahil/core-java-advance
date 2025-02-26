@@ -1,5 +1,7 @@
 package app3;
 
+import java.util.Arrays;
+
 public class M12 {
 	public static void main(String[] args) {
 		test();
@@ -9,8 +11,8 @@ public class M12 {
 		test("abc", "xyz", "hello", "xyz", "java", "btm");
 	}
 	
-	static void test(String ...strings )
+	static void test(String ... strings)
 	{
-		System.out.println("test" + Arrays.toString(strings));
+		System.out.println("test:" + Arrays.toString(strings));
 	}
 }

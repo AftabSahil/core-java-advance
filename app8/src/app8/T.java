@@ -6,11 +6,11 @@ class Q extends P{
 	int b;
 }
 class R extends Q{
-	int C;
+	int c;
 }
 class S extends R{
 	int d;
 }
-public class T {
+public class T extends S{
 	int e;
 }

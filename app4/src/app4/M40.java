@@ -5,18 +5,18 @@ public class M40 {
 		System.out.println(1);
 		test1();
 		System.out.println(2);
-	}	
+	}
 	static void test1() {
 		System.out.println(3);
 		try {
 			test2();
-		} catch (ClassNotFoundException ex) {
+		}
+		catch(ClassNotFoundException ex) {
 			System.out.println(ex);
 		}
-				
 		System.out.println(4);
 	}
-	static void test2() throws ClassNotFoundException {
+	static void test2() throws ClassNotFoundException{
 		System.out.println(5);
 		Class.forName("");
 		System.out.println(6);

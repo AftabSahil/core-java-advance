@@ -13,19 +13,27 @@ class B{
 
 public class M6 {
 	public static void main(String[] args) {
-		B b1 =new B() {
+		B b1 = new B() {
 			void test() {
 				System.out.println("B-test");
 			}
 		};
 		b1.test();
-		System.out.println("-----------");
-		B b2 =new B(20) {
+		System.out.println("---------");
+		
+		B b2 = new B(20) {
 			void test() {
 				System.out.println("B-test");
 			}
 		};
 		b2.test();
-		System.out.println("-----------");
+		System.out.println("---------");
+		
+		
+		
+		
+		
+		
+		
 	}
 }

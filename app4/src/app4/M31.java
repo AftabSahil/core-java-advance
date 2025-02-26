@@ -9,19 +9,20 @@ public class M31 {
 		Date d1 = new Date();
 		DateFormat df = DateFormat.getDateInstance();
 		String s1 = df.format(d1);
-
-		//Date d2 = df.parse(s1);
+		
+	//	Date d2 = df.parse(s1);
 		
 		try {
 			Date d2 = df.parse(s1);
-		} 
-		catch (ParseException ex) {
+		}
+		catch(ParseException ex) {
 			
 		}
 		
 		try {
-			
-		} catch (ParseException ex) {
+			Date d2 = df.parse(s1);
+		}
+		catch(ParseException ex) {
 			
 		}
 	}
