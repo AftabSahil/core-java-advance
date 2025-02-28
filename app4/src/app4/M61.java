@@ -3,11 +3,10 @@ package app4;
 public class M61 {
 	public static void main(String[] args) {
 		try {
-			//some statements
+			// some statement
 			throw new ArithmeticException();
-		}
-		catch(ArithmeticException ex) {
-			//some statements
+		} catch (ArithmeticException ex) {
+			// some statement
 		}
 		System.out.println("end");
 	}

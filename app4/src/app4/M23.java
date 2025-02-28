@@ -1,27 +1,15 @@
 package app4;
 /*
-	try-catch
-	
-	try-catcth-finally
-	
-	
-	try-catches
-	
-	
-	try-catches-finally
+ * try-catch
+ * 
+	try-catch-finally
 	
 	try-finally
-	
  */
-
-
-
-
 public class M23 {
 	public static void main(String[] args) {
 		try {
-			//some statements
-			int i = 10 / 0;
+			//some statement
 		}
 		finally {
 			//some statements
@@ -30,11 +18,3 @@ public class M23 {
 		System.out.println("done");
 	}
 }
-
-
-
-
-
-
-
-

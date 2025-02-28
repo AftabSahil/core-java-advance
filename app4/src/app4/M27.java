@@ -5,15 +5,12 @@ public class M27 {
 		try {
 			System.out.println("done");
 			int i = 40;
-			Thread.sleep(3444);
-			Thread.sleep(3444);
-			Thread.sleep(3444);
-			Thread.sleep(3444);
-			Thread.sleep(3444);
-			Thread.sleep(3444);
-			Thread.sleep(3444);
-		}
-		catch(InterruptedException ex) {
+			Thread.sleep(344);
+			Thread.sleep(344);
+			Thread.sleep(344);
+			Thread.sleep(344);
+			Thread.sleep(344);
+		} catch (InterruptedException ex) {
 			
 		}
 	}

@@ -4,12 +4,10 @@ public class M43 {
 	public static void main(String[] args) {
 //		try {
 //			
-//		}
-//		catch(ClassNotFoundException ex) {
+//		} catch (ClassNotFoundException ex) {
 //			
 //		}
-	}
-	
+//	}
 	static void test() throws ClassNotFoundException {
 		
 	}

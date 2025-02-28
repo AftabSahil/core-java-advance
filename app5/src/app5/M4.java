@@ -1,22 +1,20 @@
 package app5;
 
 public class M4 {
-	
 	public static void main(String[] args) {
-		
-//		private class A{
+//		class A{
 //			
 //		}
-
+		
 //		static class B{
 //			
 //		}
-	
+		
 		int i = 10;
 		
 		class C{
 			void test() {
-				System.out.println(i);
+				System.out.println();
 			}
 		}
 		
@@ -25,7 +23,5 @@ public class M4 {
 //		i = 20;
 		c1.test();
 		c1.test();
-		
 	}
-	
 }

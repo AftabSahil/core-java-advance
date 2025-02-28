@@ -4,6 +4,7 @@ public class M21 {
 	public static void main(String[] args) {
 		int i = test();
 		System.out.println(i);
+		
 	}
 	static int test() {
 		try {

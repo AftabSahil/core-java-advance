@@ -1,4 +1,3 @@
-
 package app3;
 
 public class M10 {
@@ -15,6 +14,6 @@ public class M10 {
 		for(int i : params) {
 			System.out.println(i);
 		}
-		System.out.println("--------");
+		System.out.println("------------");
 	}
 }

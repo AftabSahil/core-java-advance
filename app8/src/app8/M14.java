@@ -1,6 +1,6 @@
 package app8;
 
-class V < E >{
+class V < E > {
 	E f1;
 }
 
@@ -15,8 +15,8 @@ public class M14 {
 		v1 = new V<Double>();
 //		v1 = new V<String>();
 //		v1 = new V<Thread>();
+		//v1.f1 = 1.5;
 		
-	//	v1.f1 = 1.5;
 		
 	}
 }

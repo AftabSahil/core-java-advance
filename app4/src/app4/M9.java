@@ -6,14 +6,12 @@ public class M9 {
 		try {
 			System.out.println(2);
 			//several statements
-			// several types of statements
-			int i = 10 / 0;			
+			//several types of statements
+			int i = 10 / 0;
 			System.out.println(3);
-		}	
-		catch(ArithmeticException ex) {		//	Throwable
+		}
+		catch(ArithmeticException ex) {
 			System.out.println(4);
-			//severel statements
-			//several types of statements 
 		}
 		System.out.println(5);
 	}

@@ -1,8 +1,14 @@
-app1	:	Scanner
-app2	:	wrapper classes
-app3	:	auto boxing, auto unboxing and var args
-app4	:	Exception handling
-app5	:	inner classes  and lambda expressions
-app6	:	triangle patterns
-app7	:	the need of the inner classes
-app8	:	Generics
+app1		:		scanner
+app2		:		wrapper classes
+app3		:		auto boxing, auto unboxing and var args
+app4		: 		exception handling and polymorphism
+app5		:		inner classes and lambda espressions
+app6		:		triangle patterns
+app7 		:		the need of the inner classes 
+app8		:		generics
+app9		:		Object class's tostring(), hashCode(),and equals(object obj) methods
+app10		:		Reflection API
+app11		:		clone
+app12		:		garbage collector
+app13		:		multi threadding basics
+app14		:		synchronization

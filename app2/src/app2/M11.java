@@ -8,9 +8,10 @@ public class M11 {
 		System.out.println("double :" + d1);
 		
 		float f1 = Float.parseFloat(s1);
-		System.out.println("float:" + f1);
+		System.out.println("float :" + f1);
 		
 		int i = Integer.parseInt(s1);
 		System.out.println("int:" + i);
-	}
+
+		}
 }

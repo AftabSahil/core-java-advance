@@ -1,7 +1,6 @@
 package app4;
 
-public class AgeNegativeException extends ArithmeticException{
-	
+public class AgeNegativeException extends ArithmeticException {
 	AgeNegativeException(){
 		
 	}
@@ -9,5 +8,4 @@ public class AgeNegativeException extends ArithmeticException{
 	AgeNegativeException(String s1){
 		super(s1);
 	}
-	
 }

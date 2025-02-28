@@ -9,13 +9,11 @@ public class M3 {
 			
 		}
 	}
-	
 	void test() {
 		class A{
 			
 		}
 	}
-	
 	M3(){
 		class B{
 			

@@ -2,17 +2,20 @@ package app4;
 
 public class M17 {
 	public static void main(String[] args) {
-		if(true) {
+		int i = 10 / 0;
+		if (true) {
 			return;
 		}
+		
 		try {
-			//some statements
+			//some statement
 		}
 		catch(ArithmeticException ex) {
-			// some statements
+			//some statement
 		}
 		finally {
 			System.out.println("from finally");
+			
 		}
 		System.out.println("end");
 	}

@@ -5,17 +5,15 @@ import java.io.IOException;
 
 class R implements Closeable
 {
-	@Override
-	public void close() throws IOException {
-		System.out.println("i amfrom close");
+	
+	public void close() throws IOException{
+		System.out.println("I am from close");
 	}
-	public void use()
-	{
+	public void use() {
 		System.out.println("use");
+		
 	}
 }
-
-
 public class M67 {
 	public static void main(String[] args) {
 		try(R r1 = new R(); R r2 = new R(); R r3 = new R())
@@ -29,21 +27,9 @@ public class M67 {
 		{
 			ex.printStackTrace();
 		}
-		finally
-		{
+		finally {
 			System.out.println("from finally");
 		}
 	}
+
 }
-
-
-
-
-
-
-
-
-
-
-
-

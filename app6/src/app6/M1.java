@@ -7,6 +7,20 @@ public class M1 {
 				System.out.print(1 + " ");
 			}
 			System.out.println();
+			
 		}
 	}
 }
+
+
+/*
+		M1:
+		
+		1
+		1 1
+		1 1 1
+		1 1 1 1
+		1 1 1 1 1 
+		1 1 1 1 1 1 
+		1 1 1 1 1 1 1
+*/

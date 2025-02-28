@@ -1,4 +1,3 @@
-
 package app2;
 
 public class M23 {
@@ -6,8 +5,5 @@ public class M23 {
 		String s1 = "a";
 		
 		char c1 = s1.charAt(0);
-		
-		System.out.println("done");
-		
 	}
 }

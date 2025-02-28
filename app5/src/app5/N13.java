@@ -1,6 +1,6 @@
 package app5;
 interface J{
-	void test(int i);
+	
 }
 public class N13 {
 	public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class N13 {
 //			System.out.println("lambda expr4:" + a);
 //		};
 //		j2.test(10);
-
+		
 		J j3 = (a) -> {
 			System.out.println("lambda expr1:" + a);
 			System.out.println("lambda expr2:" + a);
@@ -27,5 +27,6 @@ public class N13 {
 			System.out.println("lambda expr4:" + a);
 		};
 		j3.test(10);
+		
 	}
 }

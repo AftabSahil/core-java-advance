@@ -11,9 +11,8 @@ public class M2 {
 		
 	}
 	protected static class D{
-		
-	}
 	
+	}
 	public static void main(String[] args) {
 		A a1 = null;
 		B b1 = null;
@@ -25,12 +24,13 @@ public class M2 {
 		b1 = new B();
 		b1 = new M2.B();
 		c1 = new C();
-		c1  = new M2.C();
+		c1 = new M2.C();
 		
 		d1 = new D();
 		d1 = new M2.D();
 		
 		System.out.println("done");
+		
+		
 	}
-	
 }

@@ -4,20 +4,17 @@ public class M29 {
 	public static void main(String[] args) {
 		M29 obj = new M29();
 		
-	//	obj.clone();
-		
+		//obj.clone();
 		
 //		try {
 //			obj.clone();
-//		}
-//		catch(ClassNotFoundException ex) {
+//		} catch (ClassNotFoundException ex) {
 //			
 //		}
 		
 		try {
 			obj.clone();
-		}
-		catch(CloneNotSupportedException ex) {
+		} catch (CloneNotSupportedException ex) {
 			
 		}
 		
@@ -29,10 +26,8 @@ public class M29 {
 			obj.clone();
 			obj.clone();
 			obj.clone();
-		}
-		catch(CloneNotSupportedException ex) {
+		} catch (CloneNotSupportedException ex) {
 			
 		}
-		
 	}
 }

@@ -6,6 +6,7 @@ public class M35 {
 		test1();
 		System.out.println(2);
 	}
+	
 	static void test1() {
 		System.out.println(3);
 		test2();
@@ -14,11 +15,11 @@ public class M35 {
 	static void test2() {
 		System.out.println(5);
 		try {
-			int i = 10 / 0;
+		int i = 10 / 0;
 		}
-		catch(ArithmeticException ex) {
-			System.out.println(ex);
-		}
+		catch(ArithmeticException ex){
+		System.out.println(ex);
+	}
 		System.out.println(6);
 	}
 }

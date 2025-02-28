@@ -14,6 +14,8 @@ public class M15 {
 //		w1 = new W<Integer>();
 //		w1 = new W<String>();
 //		w1.f1 = new R();
-	
+		
+		
+		
 	}
 }
