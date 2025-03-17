@@ -6,7 +6,6 @@ public class M34 {
 		test1();
 		System.out.println(2);
 	}
-	
 	static void test1() {
 		System.out.println(3);
 		test2();

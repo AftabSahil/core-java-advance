@@ -1,5 +1,6 @@
 package app9;
-class I{
+class I
+{
 	int a;
 	I(int a){
 		this.a = a;
@@ -20,6 +21,5 @@ public class M10 {
 		System.out.println(obj2.hashCode());
 		System.out.println(obj3.hashCode());
 		System.out.println(obj4.hashCode());
-		
 	}
 }

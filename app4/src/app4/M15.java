@@ -18,7 +18,7 @@ public class M15 {
 			System.out.println(4);
 		}
 		catch(ArithmeticException ex) {
-			System.out.println("from the catch:" + ex);
+			System.out.println("from the 1st catch:" + ex);
 		}
 		catch(ArrayIndexOutOfBoundsException ex) {
 			System.out.println("from the 2nd catch:" + ex);

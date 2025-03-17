@@ -6,18 +6,22 @@ public class M11 {
 			@Override
 			void test1() {
 				System.out.println("F-test");
-				
-			}
-		}; 
-	}
-	
-	static G m2 {
-		return new G() {
-			@Override
-			public void methord1() {
-				System.out.println("testmethord 1");
-				
 			}
 		};
+	}
+	
+	
+	static G m2() {
+		return new G() {
+			@Override
+			public void method1() {
+				System.out.println("G-test");
+			}
+		};
+	}
+	
+	public static void main(String[] args) {
+		m1().test1();
+		m2().method1();
 	}
 }

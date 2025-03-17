@@ -2,16 +2,15 @@ package app4;
 
 import java.io.Closeable;
 import java.io.IOException;
-
 class R implements Closeable
 {
-	
-	public void close() throws IOException{
-		System.out.println("I am from close");
+	@Override
+	public void close() throws IOException {
+		System.out.println("i amfrom close");
 	}
-	public void use() {
+	public void use()
+	{
 		System.out.println("use");
-		
 	}
 }
 public class M67 {
@@ -27,9 +26,21 @@ public class M67 {
 		{
 			ex.printStackTrace();
 		}
-		finally {
+		finally
+		{
 			System.out.println("from finally");
 		}
 	}
-
 }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,5 @@
 package app13;
 
-import java.util.Iterator;
-
 class M implements Runnable{
 	@Override
 	public void run() {
@@ -17,7 +15,7 @@ public class M12 {
 		t1.start();
 		Thread t2 = new Thread(obj);
 		t2.start();
-		for(int i = 4000; i <= 5000; i++)	{
+		for(int i = 4000; i <= 5000; i++) {
 			System.out.println(i);
 		}
 	}

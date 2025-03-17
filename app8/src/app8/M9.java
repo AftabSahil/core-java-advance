@@ -24,14 +24,26 @@ public class M9 {
 		i = obj1.getValue();
 		System.out.println(i);
 		
-		
 		I<String> obj2 = new I<>("abc");
 		String s1 = obj2.getValue();
-		System.out.println(i);
+		System.out.println(s1);
 		obj2.setValue("xyz");
 		s1 = obj2.getValue();
 		System.out.println(s1);
 		
 		
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+

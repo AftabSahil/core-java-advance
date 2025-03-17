@@ -6,6 +6,6 @@ public class M28 {
 		
 		String s1 = Character.toString(c1);
 		
-		System.out.println("done");
+		System.out.println("doe");
 	}
 }

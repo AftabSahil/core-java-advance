@@ -2,17 +2,15 @@ package app4;
 
 public class M16 {
 	public static void main(String[] args) {
-		int i = 10 / 0;
-		
+		int i = 10 / 0;		
 		try {
-			//some statement
+			//some statements
 		}
 		catch(ArithmeticException ex) {
-			//some statement
+			// some statements
 		}
 		finally {
 			System.out.println("from finally");
-			
 		}
 		System.out.println("end");
 	}

@@ -1,4 +1,5 @@
 package app9;
+
 class G{
 	int i;
 	int j;
@@ -6,6 +7,7 @@ class G{
 		this.i = i;
 		this.j = j;
 	}
+	@Override
 	public boolean equals(Object obj) {
 		return (obj instanceof G) && this.i == ((G)obj).i && this.j == ((G)obj).j;
 	}

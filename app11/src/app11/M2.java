@@ -2,10 +2,12 @@ package app11;
 
 class B{
 	
-	void test () {
-//		clone();
+	void test() {
+	//	clone();
 	}
+	
 }
+
 public class M2 {
 
 }

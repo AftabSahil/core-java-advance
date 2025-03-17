@@ -1,0 +1,16 @@
+package app23;
+
+import java.util.Vector;
+
+public class M50 {
+	public static void main(String[] args) {
+		Vector<Integer> v1 = new Vector<Integer>();
+		v1.add(300);
+		v1.add(3100);
+		v1.add(1300);
+		v1.add(3400);
+		v1.add(4300);
+		v1.add(3500);
+		System.out.println(v1);
+	}
+}

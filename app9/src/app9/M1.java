@@ -1,6 +1,6 @@
 package app9;
 
-class A{
+class A {
 	int i;
 	A(int i){
 		this.i = i;

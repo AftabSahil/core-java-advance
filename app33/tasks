@@ -1,0 +1,16 @@
+1. read the data.txt file and print line by line
+2. read the data.txt file and print line by line with a name field in the ascending order sorting 
+3. read the data.txt file and print line by line with a name field in the descending order sorting 
+4. read the data.txt file and print line by line with an age field in the ascending order sorting 
+5. read the data.txt file and print line by line with an age field in the descending order sorting 
+6. read the data.txt file and print line by line with a salary field in the ascending order sorting 
+7. read the data.txt file and print line by line with a salary field in the descending order sorting 
+8. read the data.txt file and print line by line with a dept field in the ascending order sorting 
+9. read the data.txt file and print line by line with a dept field in the descending order sorting 
+10.  read the data.txt file and print 2 columns for every employee. name and his manager name
+11.  read the data.txt file and print 2 columns for every employee. name and his all manager names
+    in the upper heirarchy
+    example:
+    empname		manager names
+    -------		-------------
+    rupa		suman -> kumar -> mohan

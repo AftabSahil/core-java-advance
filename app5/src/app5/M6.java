@@ -6,10 +6,11 @@ class B{
 	B(int i){
 		System.out.println("B(int)");
 	}
-	void test(){
-		System.out.println("B- test");
+	void test() {
+		System.out.println("B-test");
 	}
 }
+
 public class M6 {
 	public static void main(String[] args) {
 		B b1 = new B() {
@@ -18,8 +19,7 @@ public class M6 {
 			}
 		};
 		b1.test();
-		System.out.println("-------------");
-		
+		System.out.println("---------");
 		
 		B b2 = new B(20) {
 			void test() {
@@ -27,7 +27,13 @@ public class M6 {
 			}
 		};
 		b2.test();
-		System.out.println("-------------");
+		System.out.println("---------");
+		
+		
+		
+		
+		
+		
+		
 	}
-
 }

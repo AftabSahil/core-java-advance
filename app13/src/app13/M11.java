@@ -5,7 +5,6 @@ class L implements Runnable{
 		for(int i = 1; i <= 1000; i++) {
 			System.out.println(i);
 		}
-		
 	}
 }
 public class M11 {
@@ -16,6 +15,5 @@ public class M11 {
 		for(int i = 1000; i <= 2000; i++) {
 			System.out.println(i);
 		}
-		
 	}
 }

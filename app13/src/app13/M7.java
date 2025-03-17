@@ -1,7 +1,6 @@
 package app13;
 
 
-
 public class M7 {
 	static class A extends Thread{
 		@Override
@@ -13,7 +12,6 @@ public class M7 {
 	}
 	
 	public static void main(String[] args) {
-//		A a1 = new A();
 		A a1 = new A();
 		a1.start();
 		
@@ -21,4 +19,5 @@ public class M7 {
 			System.out.println(i);
 		}
 	}
+
 }

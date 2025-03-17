@@ -6,13 +6,13 @@ public class M10 {
 		try {
 			System.out.println(2);
 			//several statements
-			//several types of statements
+			// several types of statements
 			System.out.println(3);
-		}
-		catch(ArithmeticException ex) {		// throwable
+		}	
+		catch(ArithmeticException ex) {		//	Throwable
 			System.out.println(4);
-			//several statements
-			//several types of statements
+			//severel statements
+			//several types of statements 
 		}
 		System.out.println(5);
 	}

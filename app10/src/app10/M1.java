@@ -4,7 +4,11 @@ import java.lang.reflect.Field;
 
 class A {
 	int i;
+	int j;
+	int k;
+	int m;
 }
+
 public class M1 {
 	public static void main(String[] args) throws Exception{
 		A a1 = new A();
@@ -15,11 +19,10 @@ public class M1 {
 		System.out.println(c1.getSimpleName());
 		System.out.println(c1.getTypeName());
 		
-		System.out.println("-------------------");
+		System.out.println("--------");
 		Field[] fields = c1.getDeclaredFields();
 		for(Field f1 : fields) {
 			System.out.println(f1.getName());
 		}
-		
 	}
 }

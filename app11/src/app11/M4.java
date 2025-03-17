@@ -5,8 +5,10 @@ class D implements Cloneable{
 		System.out.println("done");
 	}
 }
+
+
 public class M4 {
-	public static void main(String[] args) throws CloneNotSupportedException {
+	public static void main(String[] args) throws CloneNotSupportedException{
 		D d1 = new D();
 		d1.test();
 	}

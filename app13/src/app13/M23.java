@@ -7,17 +7,14 @@ public class M23 {
 		System.out.println(t1.getId());
 		System.out.println(t1.isDaemon());
 		System.out.println(t1.getPriority());
-		System.out.println("============");
+		System.out.println("=========");
 		t1.setName("initiator");
-//		t1.setDaemon(true);
+	//	t1.setDaemon(true);
 		t1.setPriority(10);
 		System.out.println(t1.getName());
 		System.out.println(t1.getId());
 		System.out.println(t1.isDaemon());
 		System.out.println(t1.getPriority());
 		
-		
-		
 	}
-
 }

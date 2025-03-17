@@ -7,7 +7,6 @@ class B extends Thread{
 		}
 	}
 }
-
 class C extends Thread{
 	@Override
 	public void run() {
@@ -16,9 +15,6 @@ class C extends Thread{
 		}
 	}
 }
-
-
-
 public class M4 {
 	public static void main(String[] args) {
 		B b1 = new B();
@@ -26,6 +22,7 @@ public class M4 {
 		
 		C c1 = new C();
 		c1.start();
+		
 		for(int i = 3000; i < 4000; i++) {
 			System.out.println(i);
 		}

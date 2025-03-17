@@ -1,4 +1,5 @@
 package app12;
+
 class D {
 	
 	D obj;
@@ -9,7 +10,7 @@ class D {
 	}
 }
 public class M4 {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException{
 		System.out.println("begin");
 		D d1 = new D();
 		D d2 = new D();
@@ -21,15 +22,14 @@ public class M4 {
 		
 		d1 = null;
 		d2 = null;
-		//	how many objects abandoned?
+		// how many objects abandoned?
 		System.gc();
 		Thread.sleep(5000);
-		System.out.println("-------------------");
-		//	how many objects abandoned?
+		System.out.println("-------------");
 		d3 = null;
+		// how many objects abandoned?
 		System.gc();
 		Thread.sleep(5000);
-		System.out.println("-------------------");
+		System.out.println("-------------");
 	}
-
 }

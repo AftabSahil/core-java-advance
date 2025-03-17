@@ -9,6 +9,7 @@ class K {
 		this.b = b;
 		this.c = c;
 	}
+	
 	@Override
 	public int hashCode() {
 		int hash = Integer.toString(a).hashCode();
@@ -16,6 +17,7 @@ class K {
 		hash += Integer.toString(c).hashCode();
 		return hash;
 	}
+	
 }
 public class M12 {
 	public static void main(String[] args) {

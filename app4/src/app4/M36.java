@@ -6,16 +6,14 @@ public class M36 {
 		test1();
 		System.out.println(2);
 	}
-	
 	static void test1() {
 		System.out.println(3);
 		try {
 			test2();
-			
-		} catch (ArithmeticException ex) {
+		}
+		catch(ArithmeticException ex) {
 			System.out.println(ex);
 		}
-		
 		System.out.println(4);
 	}
 	static void test2() {

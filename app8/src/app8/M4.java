@@ -10,14 +10,11 @@ public class M4 {
 		D d1 = new D();
 		boolean b1 = d1.test();
 		
-		
 		D d2 = new D();
 		boolean b2 = d2.test();
 		
-		
 		D d3 = new D();
 		boolean b3 = d3.test();
-		
 		
 		D d4 = new D();
 		boolean b4 = d4.test();

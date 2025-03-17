@@ -7,7 +7,7 @@ public class M4 {
 		String s1 = new String("abc");
 		Integer i1 = Integer.valueOf(100);
 		Boolean b1 = Boolean.valueOf(false);
-		Thread t1 = new Thread();
+		Thread t1 =  new Thread();
 		ArrayList list = new ArrayList();
 		StringBuffer sb = new StringBuffer("hello");
 		System.out.println(s1);

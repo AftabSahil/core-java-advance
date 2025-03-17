@@ -1,14 +1,53 @@
-app1		:		scanner
-app2		:		wrapper classes
-app3		:		auto boxing, auto unboxing and var args
-app4		: 		exception handling and polymorphism
-app5		:		inner classes and lambda espressions
-app6		:		triangle patterns
-app7 		:		the need of the inner classes 
-app8		:		generics
-app9		:		Object class's tostring(), hashCode(),and equals(object obj) methods
-app10		:		Reflection API
-app11		:		clone
-app12		:		garbage collector
-app13		:		multi threadding basics
-app14		:		synchronization
+app1	:	Scanner
+app2	:	wrapper classes
+app3	:	auto boxing, auto unboxing and var args
+app4	:	Exception handling
+app5	:	inner classes  and lambda expressions
+app6	:	triangle patterns
+app7	:	the need of the inner classes
+app8	:	Generics
+app9	:	Object class's toString(), hashCode() and equals(Object obj) methods
+app10	:	Reflection API	
+app11	:	clone	
+app12	:	garbage collection
+app13	:	multi threadding basics
+app14	:	synchronization
+app15	:	inter thread communication
+app16	:	thread life cycle, ThreadLocal and ThreadGroup
+app17	:	Strings basics
+app18	:	StringBuffer and StringBuilder
+app19	:	printf (formatters)
+app20	:	regular expressions
+app21	:	SimpleDateFormat
+app22	:	Immutable class
+app23	:	Collection API - List
+app24	:	Collection API - Queue
+app25	:	Collection API - Set
+app26	:	Collection API - Map
+app27	:	Collection API - Derived datatypes (toString, hashCode and equals)
+app28	:	Collection API - Derived datatypes (sorting)
+app29	:	Our own ArrayList and LinkedLists
+app30	:	synchronizing collection objects
+app31	:	Concurrancy package
+app32	:	Concurrancy package
+app33	:	text content readining and writting
+app34	:	binary content readining and writting
+app35	:	serialization
+app36	:	JDK1.8 features
+app37	:	enums
+app38	:	annotations
+app39	:	assertions
+app40	:	JVM, JRE and JDK
+
+
+
+
+
+
+
+
+
+
+
+
+

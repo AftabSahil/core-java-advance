@@ -1,7 +1,7 @@
 package app13;
 
 public class M14 {
-	class A implements Runnable{
+	class  A implements Runnable{
 		@Override
 		public void run() {
 			for(int i = 2000; i <= 3000; i++) {
@@ -17,6 +17,6 @@ public class M14 {
 		t1.start();
 		for(int i = 4000; i <= 5000; i++) {
 			System.out.println(i);
-		}
+		}		
 	}
 }

@@ -1,0 +1,13 @@
+package app32;
+
+import java.io.File;
+
+public class M9 {
+	public static void main(String[] args) {
+		File f1 = new File("D:/abc");
+		System.out.println(f1.exists());
+		System.out.println(f1.mkdir());
+		System.out.println(f1.exists());
+		
+	}
+}
